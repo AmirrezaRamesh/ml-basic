@@ -76,8 +76,8 @@ I trained the circles dataset created by sk-learn. here's the outputs:
 
 | dataset | perceptron accuracy | MLP accuracy | RBF Accuracy |
 |---|---:|---:|---:|
-| two Moons | 0.837 | 0.973 | 0.980 |
-| XOR | 0.483 | 0.839 | 0.872 |
-| circles | 0.513 | 0.993 | 0.999 |
+| two Moons | 0.880 | 0.987 | 0.990 |
+| XOR | 0.517 | 0.872 | 0.861 |
+| circles | 0.480 | 0.997 | 0.993 |
 
 ## analysis
