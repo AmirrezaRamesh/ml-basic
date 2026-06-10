@@ -1,7 +1,15 @@
 # ml-models
 training three simple datasets with three algorithms: perceptron, MLP, and RBF
-ML course 404-405 spring
-DR Hassanzade
+- ML course 404-405 spring
+- DR Hassanzade
+
+### list:
+- [raw data visualization](#raw-data-visualization)
+- [dataset 1: two moons](#dataset-1--two-moons)
+- [dataset 2: XOR](#dataset-2--xor)
+- [dataset 3: circles](#dataset3--circles)
+- [comparison table](#comparison-table)
+- [analysis](#analysis)
 
 ### raw data visualization
 
