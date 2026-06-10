@@ -1,4 +1,4 @@
-# ml-models
+# ml models
 training three simple datasets with three algorithms: perceptron, MLP, and RBF
 - ML course 404-405 spring
 - DR Hassanzade
