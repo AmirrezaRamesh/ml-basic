@@ -81,3 +81,9 @@ I trained the circles dataset created by sk-learn. here's the outputs:
 | circles | 0.480 | 0.997 | 0.993 |
 
 ## analysis
+- for circles dataset, the data of one lable is within the other one(geometry wise),and since the decision boundry for perceptron is a line, it failed very badly. checking the confusion matrix, the real value of model is even lower than the accuracy
+- noisy xor dataset is also scattered quite a lot, for the same reason as last one, perceptron model output had a bad accuracy
+- for mlp to have a better outcome, I added n-epochs and lowerd the learning rate, which resulted in a very accurate model
+- rbf had a good accuracy for all of the datasets
+- In both MLP and RBF, feature transformation helps the model solve nonlinear problems. In an MLP, the hidden layer transforms the original inputs using weights and activation functions like ReLU, tanh, or sigmoid. This allows the model to create new internal features that make complex patterns easier to separate. In an RBF network, the input features are transformed based on their distance from selected centers, usually found by K-Means. This means each data point is represented by how close it is to different centers, which helps the model separate curved or circular patterns.
+- MLP learns the decision boundary by adjusting weights through training. RBF first maps data into a new distance-based feature space, then learns a simpler boundary there.
